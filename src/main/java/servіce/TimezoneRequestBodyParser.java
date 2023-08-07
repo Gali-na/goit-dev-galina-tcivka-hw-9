@@ -25,6 +25,7 @@ public class TimezoneRequestBodyParser {
             }
             requestBodyString = requestBody.toString();
 
+        } catch (IOException e) {
             throw new RuntimeException(e);
         }
         return requestBodyString;

@@ -14,7 +14,7 @@ public class ApplicationServletContextListener implements ServletContextListener
     public void contextInitialized(ServletContextEvent sce) {
         TemplateEngine engine = new TemplateEngine();
         FileTemplateResolver resolver = new FileTemplateResolver();
-      //  resolver.setPrefix("C:\\Users\\Acer Nitro 5\\IdeaProjects\\goit.tomcat.cookies\\templates/");
+     //  resolver.setPrefix("C:\\Users\\Acer Nitro 5\\IdeaProjects\\goit.tomcat.cookies\\src\\templates/");
         resolver.setPrefix("./templates/");
         resolver.setSuffix(".html");
         resolver.setTemplateMode("HTML5");
